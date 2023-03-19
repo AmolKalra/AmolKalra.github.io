@@ -139,6 +139,13 @@ h3 {
     color: var(--white);
 }
 
+work_text > h4{
+    font-family: 'Jost', sans-serif;
+    font-weight: 200;
+    line-height: var(--line-height-small);
+    color: var(--white);
+}
+
 .heading-primary {
     line-height: 1;
     font-size: var(--font-size-huge);
@@ -433,6 +440,9 @@ body:not(.user-is-tabbing) a:focus {
     position: fixed;
     right: 0;
     padding: var(--gutter-normal) 0;
+    width: 100%;
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 .nav__items {
@@ -441,6 +451,18 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__item:not(:last-child) {
+    margin-right: var(--gutter-medium);
+}
+
+#nav__item--left {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    left: 0;
+}
+
+#nav__item:not(:last-child) {
     margin-right: var(--gutter-medium);
 }
 

@@ -26,13 +26,13 @@
       <div class="row">
         <nav class="nav" role="navigation">
           <ul class="nav__items">
-            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
+            <li class="nav__item" id="nav__item--left"><a href="#" class="nav__link">Amol Kalra</a></li>
+            <li class="nav__item"><a href="#top" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link" id="resume-link">Resume</a></li>
           </ul>
         </nav>
       </div>
@@ -48,6 +48,32 @@
     </header>
   
     <main role="main">
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                Highly adept and solutions-focused technical support
+professional with experience in troubleshooting and resolving
+technical issues with a knack for web development. Demonstrated ability to efficiently identify and
+solve problems, while maintaining a positive and empathetic
+demeanor with clients. Committed to providing top-notch
+technical support and continuously improving customer
+satisfaction.
+              </p>
+              <a id="myId" class="btn">
+                My Resume
+              </a>
+             </div>
+  
+            <div class="about__photo-container">
+              <img class="about__photo" src="./media/profile.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       <section class="skills" id="skills">
@@ -128,7 +154,7 @@
   
       <section class="work" id="work">
         <div class="row">
-          <h2>My Work</h2>
+          <h2>Portfolio</h2>
           <div class="work__boxes">
     
             <div class="work__box">
@@ -138,6 +164,7 @@
                   Created NFT-enabled dapp with a secure blockchain connection and
 intuitive UI/UX.
                 </p>
+                <h4>Tech Stack used:-</h4>
                 <ul class="work__list">
                   <li>HTML</li>
                   <li>CSS</li>
@@ -146,6 +173,14 @@ intuitive UI/UX.
                   <li>Ether.js</li>
                   <li>Typescript</li>
                 </ul>
+                
+                <h4>Features:-</h4>
+                <ul class="work__list"> 
+                  <li>Secure transactions</li>
+                  <li>Blockchain-based</li>
+                  <li>NFT-enabled</li>
+                </ul>
+
   
                 <div class="work__links">
                   <a href="https://resplendent-pasca-e082ed.netlify.app/" target="_blank" class="link__text">
@@ -167,13 +202,21 @@ intuitive UI/UX.
                 <p>
                   Created a visually engaging onboarding presentation using reveal.js in Figma.
                 </p>
+                <h4>Tech Stack used:-</h4>
                 <ul class="work__list">
                   <li>reveal.js</li>
                   <li>HTML</li>
                 </ul>
+
+                <h4>Features:-</h4>
+                <ul class="work__list"> 
+                  <li>Visually engaging</li>
+                  <li>Multimedia-rich</li>
+                  <li>Collaborative</li>
+                </ul>
   
                 <div class="work__links">
-                  <a href="https://melodic-figolla-a9606b.netlify.app/" class="link__text">
+                  <a href="https://melodic-figolla-a9606b.netlify.app/" class="link__text" target="_blank">
                     Visit Site <span>&rarr;</span>
                   </a>
                 </div>
@@ -189,17 +232,25 @@ intuitive UI/UX.
                 <p>
                   Created a frontend clone of Tripadvisor
                 </p>
+                <h4>Tech Stack used:-</h4>
                 <ul class="work__list">
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
                 </ul>
-  
+                
+                <h4>Features:-</h4>
+                <ul class="work__list"> 
+                  <li>Responsive</li>
+                  <li>Intuitive</li>
+                  <li>Visually Pleasing</li>
+                </ul>
+
                 <div class="work__links">
-                  <a href="https://effervescent-peony-490f16.netlify.app/" class="link__text">
+                  <a href="https://effervescent-peony-490f16.netlify.app/" class="link__text" target="_blank">
                     Visit Site <span>&rarr;</span>
                   </a>
-                  <a href="https://github.com/AmolKalra/cagey-sink-9502">
+                  <a href="https://github.com/AmolKalra/cagey-sink-9502" target="_blank">
                     <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                   </a>
                 </div>
@@ -207,30 +258,6 @@ intuitive UI/UX.
               <div class="work__image-box">
                 <img src="./media/ta.png" class="work__image" alt="Project 3" />
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-  
-      <section class="about" id="about">
-        <div class="row">
-          <h2>About Me</h2>
-          <div class="about__content">
-            <div class="about__text">
-              <p>
-                Highly adept and solutions-focused technical support
-professional with experience in troubleshooting and resolving
-technical issues with a knack for web development. Demonstrated ability to efficiently identify and
-solve problems, while maintaining a positive and empathetic
-demeanor with clients. Committed to providing top-notch
-technical support and continuously improving customer
-satisfaction.
-              </p>
-              <a href="https://drive.google.com/uc?export=download&id=1hmWhgQfvbrO-q0teD4KtJIyFNRgd7n28" class="btn">My Resume</a>
-            </div>
-  
-            <div class="about__photo-container">
-              <img class="about__photo" src="./media/profile.png" alt="" />
             </div>
           </div>
         </div>
@@ -257,23 +284,29 @@ satisfaction.
       <div class="row">
         <ul class="footer__social-links">
           <li class="footer__social-link-item">
-            <a href="https://twitter.com/Amolkalra_" title="Link to Twitter Profile">
+            <a href="https://twitter.com/Amolkalra_" target="_blank" title="Link to Twitter Profile">
               <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
             </a>
           </li>
           <li class="footer__social-link-item">
-            <a href="https://github.com/AmolKalra" title="Link to Github Profile">
+            <a href="https://github.com/AmolKalra" target="_blank" title="Link to Github Profile">
               <img src="./images/github.svg" class="footer__social-image" alt="Github">
             </a>
           </li>
           <li class="footer__social-link-item">
-            <a href=https://www.linkedin.com/in/amolkalra/">
+            <a href="https://www.linkedin.com/in/amolkalra/" target="_blank">
               <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="tel:+917879577666" title="Call my mobile number">
+              <img src="./media/phone.jpg" class="footer__social-image" alt="Phone">
             </a>
           </li>
         </ul>
       </div>
     </footer>
+    
 
     <a href="#top" class="back-to-top" title="Back to Top">
       <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
@@ -281,6 +314,20 @@ satisfaction.
 
     <script src="./script/index.js"></script>
     <script src="./script/handleclick.js"></script>
+    <script>
+      myId.onclick = function(){
+  open('https://drive.google.com/file/d/1hmWhgQfvbrO-q0teD4KtJIyFNRgd7n28/view');
+  location.href = ('https://drive.google.com/uc?export=download&id=1hmWhgQfvbrO-q0teD4KtJIyFNRgd7n28');
+}
+
+const resumeLink = document.getElementById("resume-link");
+
+resumeLink.onclick = function() {
+  window.open("https://drive.google.com/file/d/1hmWhgQfvbrO-q0teD4KtJIyFNRgd7n28/view");
+  window.location.href = "https://drive.google.com/uc?export=download&id=1hmWhgQfvbrO-q0teD4KtJIyFNRgd7n28";
+};
+
+    </script>
 
   </body>
   
